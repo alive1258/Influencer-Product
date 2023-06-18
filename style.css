@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.head h1{
+    font-weight: 700;
+font-size: 24px;
+}
+.head{
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.haed-bar span{
+    display: none;
+}
+.head-title{
+    font-size: 3vw;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.start-influncer{
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start-des h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.start-des p{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.prebook-btn{
+    background: #E02C6D;
+    border-radius: 28px;
+    width: 204.42px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+.prebook-btn span{
+    align-items: center;
+    padding-left: 10px;
+
+}
+.srat-pic{
+    background-image: url('./images/Circle design.svg');
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.srat-pic img{
+    align-items: center;
+    width:100%;
+    height: 100%;
+}
+.all-icons{
+    padding: 60px 170px; 
+}
+.icon{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.populer-collection{
+    padding: 60px 100px;
+}
+.populer-title{
+    font-weight: 600;
+    font-size: 28px; text-align: center;
+    margin-bottom: 40px;
+
+}
+.populer-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+   
+    grid-row-gap: 40px;
+    /* gap: 40px; */
+
+}
+.card{
+    width: 329px;
+    height: 476px;
+    border-radius: 6px;
+    box-shadow: 2px 3px 5px gray;
+}
+.card-img{
+    margin: 14px;
+}
+.satr-icons{
+    display: flex;
+    align-items: center;
+}
+.satr-icons i{
+    font-size: 12px;
+    color: gold;
+   
+   
+}
+.price-card{
+    margin-bottom: 8px;
+}
+.card-des{
+    padding-left: 15px;
+}
+.card-des-pera{
+    font-weight: 700;
+    font-size: 14px;  
+}
+.see-more{
+    margin: 20px 34px;
+    color:#E02C6D;
+    text-align: right;
+    cursor: pointer;
+}
+.arrow-r{
+   
+    margin-left: 8px;
+}
+.featured-section{
+    padding: 60px 100px;
+}
+.featured{
+     display: flex;
+     align-items: center;
+     gap: 97px;
+}
+.featured-img img{
+    width: 100%;
+    height: 100%;
+}
+.featured-des h1{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.featured-des p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.featured-des p{
+   margin-bottom: 15px;
+   font-weight: 700;
+   font-size: 16px;
+}
+.feature-btn{
+   background: #E02C6D;
+   color: white; 
+   padding: 10px 24px;
+   border: none;
+   cursor: pointer;
+   align-items: center;
+}
+.arr-right{
+    padding-left: 7px;
+    align-items: center;
+}
+.footer{
+    background:#0A0826;
+    width: 100%;
+    height: 250px;
+}
+.footer-des{
+    padding-top: 65px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;  
+}
+.foot-des-all p{
+    font-weight: 700;
+    font-size: 14px; 
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+
+}
+
+
+/* mobile device */
+@media only screen and (max-width: 576px) {
+    .haed-bar span{
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+       
+    }
+    .haed-bar
+    {
+        display: flex;
+        gap: 100px;
+       
+    }
+    .head h1{
+        font-weight: 700;
+        font-size: 16px;  
+    }
+    .head{
+       
+        padding: 35px 16px;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+    .start-influncer{
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+   
+    .start-des{
+        align-items: center;
+        padding: 7px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .featured-des h1{
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+    .featured-img{
+        width: 299px;
+        height: 188px;
+    }
+    .start-des h1{
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    .start-des p{
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+    }
+    .prebook-btn{ 
+        margin: 0 auto;
+        display: block;
+    }
+  
+    .icon{
+       
+            gap:25px;
+            border: none;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+    }
+ 
+    .all-icons img{
+        width: 58.86px;
+        height: 16.98px;
+        
+    }
+    .populer-title{
+        font-weight: 600;
+        font-size: 16px;
+        color: #3A3A3A;
+    }
+    .populer-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .see-more{
+        margin-left:auto;
+        display: block;
+       /* text-align: right; */
+        /* margin: 0; */
+        /* display: flex; */
+        /* justify-content: flex-end; */
+        /* cursor: pointer; */
+        /* align-items: flex-end; */
+    }
+    .featured-section{
+        padding: 0;
+    }
+    .featured{
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+    .featured-des{
+        text-align: center;
+    }
+    .featured-des p{
+        color: #6C6C6C;
+    }
+   
+
+ 
+  }
